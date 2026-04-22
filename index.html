@@ -1,398 +1,444 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#11180e">
-    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%23e8ed6f'/%3E%3Ctext x='50' y='60' font-size='50' text-anchor='middle' fill='%23001200' font-family='Poppins'%3EP%3C/text%3E%3C/svg%3E">
+    <meta name="theme-color" content="#070707">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='18' fill='%2300f0c0'/%3E%3Ctext x='50' y='66' font-size='52' text-anchor='middle' fill='%23000' font-family='sans-serif' font-weight='900'%3EP%3C/text%3E%3C/svg%3E">
     <title>Praful Kinkar | AI/ML Engineer</title>
-    <meta name="description"
-        content="Portfolio of Praful Kinkar, AI/ML Engineer specializing in LLM Automation and Data Systems.">
-
+    <meta name="description" content="Portfolio of Praful Kinkar, AI/ML Engineer specializing in LLM Automation and Data Systems.">
+    <meta property="og:title" content="Praful Kinkar | AI/ML Engineer">
+    <meta property="og:description" content="I build AI systems that turn raw data and vague problems into structured, working solutions.">
+    <meta property="og:image" content="profile.png">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- Use Poppins for main headings, Inter for body -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@600;700;800&display=swap"
-        rel="stylesheet">
-
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="style.css">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Praful Kinkar","jobTitle":"AI/ML Engineer","email":"prafulkinkar8@gmail.com","sameAs":["https://github.com/prafulkinkar","https://linkedin.com/in/prafulkinkar"]}</script>
 </head>
-
 <body>
 
-    <nav class="navbar" role="navigation" aria-label="Primary navigation">
-        <div class="container nav-container">
+    <nav class="navbar">
+        <div class="nav-inner">
+            <a href="#home" class="logo">PRAFUL/K.</a>
             <ul class="nav-links">
-                <li><a href="#about">About.</a></li>
-                <li><a href="#skills">Skills.</a></li>
-                <li><a href="#services">Services.</a></li>
-                <li><a href="#projects">Projects.</a></li>
-                <li><a href="#youtube">YouTube.</a></li>
-                <li><a href="#experience">Experience.</a></li>
-                <li><a href="#contact">Contact.</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#youtube">YouTube</a></li>
+                <li><a href="#experience">Experience</a></li>
             </ul>
-            <a href="#" class="logo">PRAFUL/K.</a>
-            <button class="mobile-nav-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-nav">
-                <i class="ph ph-list"></i>
-            </button>
+            <a href="#contact" class="nav-cta">Get In Touch</a>
+            <button class="mobile-toggle" aria-label="Open menu" aria-expanded="false"><i class="ph ph-list"></i></button>
         </div>
-        <div class="mobile-nav-overlay" id="mobile-nav" aria-hidden="true">
-            <div class="mobile-nav-panel">
-                <button class="mobile-nav-close" aria-label="Close navigation">
-                    <i class="ph ph-x"></i>
-                </button>
-                <ul class="mobile-nav-links">
-                    <li><a href="#about">About.</a></li>
-                    <li><a href="#skills">Skills.</a></li>
-                    <li><a href="#services">Services.</a></li>
-                    <li><a href="#projects">Projects.</a></li>
-                    <li><a href="#youtube">YouTube.</a></li>
-                    <li><a href="#experience">Experience.</a></li>
-                    <li><a href="#contact">Contact.</a></li>
+        <div class="mobile-overlay" aria-hidden="true">
+            <div class="mobile-panel">
+                <button class="mobile-close" aria-label="Close menu"><i class="ph ph-x"></i></button>
+                <ul class="mobile-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#youtube">YouTube</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
     <main>
-        <!-- Hero Section -->
+
+        <!-- HERO -->
         <section id="home" class="hero">
-            <div class="container hero-container animate-on-scroll">
-                <div class="hero-left">
-                    <h1 class="hero-title">Praful<br>Kinkar <i class="ph ph-arrow-right"></i></h1>
+            <div class="hero-glow"></div>
+            <div class="container">
+                <div class="hero-tag animate-up"><span class="pulse-dot"></span>Available for Projects · 2025</div>
+                <h1 class="hero-title animate-up d1">
+                    Hey! It's me,<br>
+                    <em class="accent-name">Praful Kinkar</em>
+                </h1>
+                <p class="hero-sub animate-up d2">
+                    AI/ML Engineer who turns raw data &amp; vague problems<br class="br-desk">into structured, working systems.
+                </p>
+                <div class="hero-btns animate-up d3">
+                    <a href="#projects" class="btn btn-accent">View Projects <i class="ph ph-arrow-right"></i></a>
+                    <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                    <a href="resume.pdf" download class="btn btn-outline">Download CV <i class="ph ph-download-simple"></i></a>
                 </div>
-
-                <div class="hero-center">
-                    <div class="bubble bubble-1">AI/ML<br>Engineer</div>
-                    <div class="bubble bubble-2">Data<br>Systems</div>
-                    <div class="hero-image-wrapper">
-                        <!-- User's photo goes here -->
-                        <img src="profile.png"
-                            onerror="this.src='https://via.placeholder.com/600x600/1A1D24/1A1D24?text=+';"
-                            alt="Praful Kinkar" id="profile-img">
-                    </div>
-                </div>
-
-                <div class="hero-right">
-                    <p class="hero-subtitle">/ THIS IS ME</p>
-                    <h2 class="hero-role">AI/ML Engineer and system builder.</h2>
-                    <p class="hero-intro">
-                        I build AI systems that turn raw data and vague problems into structured, working solutions.
-                        With an engineering mindset, I focus on automation, scalable pipelines, and real-world impact
-                        over mere theoretical models.
-                    </p>
-                    <div class="hero-buttons">
-                        <a href="#projects" class="btn btn-primary">View Projects</a>
-                        <a href="#contact" class="btn btn-secondary">Contact</a>
-                    </div>
+                <div class="hero-stats animate-up d3">
+                    <div class="hstat"><span class="hn">B.Tech</span><span class="hl">Mech. Engineering</span></div>
+                    <div class="hdiv"></div>
+                    <div class="hstat"><span class="hn">AI Intern</span><span class="hl">@ AI Unika</span></div>
+                    <div class="hdiv"></div>
+                    <div class="hstat"><span class="hn">2026</span><span class="hl">Graduating</span></div>
                 </div>
             </div>
-            <div class="scroll-down">scroll for more <i class="ph ph-arrow-down"></i></div>
+            <div class="hero-img-col animate-up d2">
+                <div class="hero-img-wrap">
+                    <img src="profile.png" alt="Praful Kinkar" loading="eager" onerror="this.parentElement.classList.add('img-fallback')">
+                    <div class="img-badge b1"><i class="ph ph-brain"></i><span>AI/ML<br>Engineer</span></div>
+                    <div class="img-badge b2"><i class="ph ph-database"></i><span>Data<br>Systems</span></div>
+                </div>
+            </div>
         </section>
 
-        <!-- About Section (Mapped to text/stats style) -->
+        <!-- MARQUEE -->
+        <div class="marquee-wrap">
+            <div class="marquee-track">
+                <div class="marquee-content">
+                    <span>LLM Engineering</span><b>·</b><span>Prompt Architecture</span><b>·</b><span>Data Pipelines</span><b>·</b><span>Computer Vision</span><b>·</b><span>Hugging Face</span><b>·</b><span>Python</span><b>·</b><span>Tableau</span><b>·</b><span>Power BI</span><b>·</b><span>NLP</span><b>·</b><span>EDA</span><b>·</b><span>Automation</span><b>·</b>
+                    <span>LLM Engineering</span><b>·</b><span>Prompt Architecture</span><b>·</b><span>Data Pipelines</span><b>·</b><span>Computer Vision</span><b>·</b><span>Hugging Face</span><b>·</b><span>Python</span><b>·</b><span>Tableau</span><b>·</b><span>Power BI</span><b>·</b><span>NLP</span><b>·</b><span>EDA</span><b>·</b><span>Automation</span><b>·</b>
+                </div>
+            </div>
+        </div>
+
+        <!-- ABOUT -->
         <section id="about" class="about">
-            <div class="container animate-on-scroll about-container">
-                <div class="about-left">
-                    <div class="huge-bg-text">Engineer</div>
-                    <div class="stats-panel">
-                        <div class="stat-item">
+            <div class="container">
+                <div class="about-grid animate-on-scroll">
+                    <div class="about-left">
+                        <p class="eyebrow">/ ABOUT ME</p>
+                        <h2 class="sec-heading">Engineering the<br>Future with clean,<br>scalable solutions.</h2>
+                        <p class="body-text">I'm an AI/ML Engineer actively transitioning from a mechanical engineering background. My engineering roots give me a rigorous problem-solving mindset — I apply it to architecting AI systems and data pipelines.</p>
+                        <p class="body-text">Currently, as an AI/ML Intern at AI Unika, I specialize in LLM-based automation frameworks, processing complex datasets, and designing analytics dashboards that drive real decisions.</p>
+                        <a href="#contact" class="btn btn-accent" style="margin-top:2.5rem;">Work With Me <i class="ph ph-arrow-right"></i></a>
+                    </div>
+                    <div class="about-cards">
+                        <div class="acard accent-bg">
+                            <i class="ph ph-graduation-cap aicon"></i>
                             <h3>B.Tech</h3>
                             <p>Mechanical Engineering<br>Graduating 2026</p>
+                            <small>GH Raisoni College · Nagpur</small>
                         </div>
-                        <div class="stat-item">
+                        <div class="acard dark-bg">
+                            <i class="ph ph-briefcase aicon"></i>
                             <h3>AI Intern</h3>
-                            <p>AI Unika<br>Current Role</p>
+                            <p>AI Unika<br>Feb 2026 – Present</p>
+                            <small>Current Role</small>
+                        </div>
+                        <div class="acard dark-bg span2">
+                            <div class="acard-wide">
+                                <div>
+                                    <h3>Problem Solver</h3>
+                                    <p>Focused on practically applied AI — building robust systems, not just training isolated models.</p>
+                                </div>
+                                <div class="tag-row">
+                                    <span>LLM Systems</span><span>Data Eng.</span><span>Automation</span><span>Pipelines</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="about-right">
-                    <p class="section-subtitle">/ PROBLEM SOLVER</p>
-                    <h2 class="section-title-left">Engineering the Future with clean, scalable solutions.</h2>
-                    <p class="about-text">I am an AI/ML Engineer actively transitioning from a mechanical engineering
-                        background. My engineering roots instilled in me a rigorous problem-solving mindset, which I now
-                        apply to architecting scalable AI systems and comprehensive data pipelines.</p>
-                    <p class="about-text">Currently, as an AI/ML Intern at AI Unika, I specialize in building LLM-based
-                        automation frameworks, processing complex datasets, and designing intuitive analytics dashboards
-                        that drive actionable insights.</p>
-                    <p class="about-text">I focus on practically applied AI—building robust systems rather than just
-                        training isolated models.</p>
-                </div>
-            </div>
-            <div class="container education-footer animate-on-scroll">
-                <p class="timeline-meta">GH Raisoni College of Engineering and Management, Nagpur | Rashtrasant Tukadoji
-                    Maharaj Nagpur University</p>
             </div>
         </section>
 
-        <!-- Skills Section -->
+        <!-- SKILLS -->
         <section id="skills" class="skills">
             <div class="container animate-on-scroll">
-                <p class="section-subtitle center">/ CORE CAPABILITIES</p>
-                <h2 class="section-title">Skills</h2>
-                <div class="grid-4-col">
-                    <div class="flat-card dark-card">
-                        <i class="ph ph-brain icon-lg"></i>
+                <p class="eyebrow center">/ CORE CAPABILITIES</p>
+                <h2 class="sec-heading center">Skills</h2>
+                <div class="skills-bento">
+                    <div class="sk-card accent-bg large">
+                        <i class="ph ph-brain sk-icon"></i>
                         <h3>AI/ML & LLM Engineering</h3>
                         <ul>
-                            <li>LLM application development</li>
-                            <li>Prompt engineering</li>
-                            <li>Hugging Face transformer models</li>
-                            <li>NLP (summarization, classification, Q&A)</li>
-                            <li>Computer vision dataset workflows</li>
+                            <li><i class="ph ph-caret-right"></i>LLM application development</li>
+                            <li><i class="ph ph-caret-right"></i>Prompt engineering &amp; architecture</li>
+                            <li><i class="ph ph-caret-right"></i>Hugging Face transformer models</li>
+                            <li><i class="ph ph-caret-right"></i>NLP — summarization, classification, Q&amp;A</li>
+                            <li><i class="ph ph-caret-right"></i>Computer vision dataset workflows</li>
                         </ul>
                     </div>
-                    <div class="flat-card highlight-card">
-                        <i class="ph ph-chart-bar icon-lg"></i>
+                    <div class="sk-card dark-bg">
+                        <i class="ph ph-chart-bar sk-icon"></i>
                         <h3>Data & Analytics</h3>
                         <ul>
-                            <li>Data cleaning & engineering (Pandas, NumPy)</li>
-                            <li>Exploratory Data Analysis (EDA)</li>
-                            <li>Tableau & Power BI dashboards</li>
-                            <li>Insight generation</li>
+                            <li><i class="ph ph-caret-right"></i>Pandas &amp; NumPy</li>
+                            <li><i class="ph ph-caret-right"></i>EDA &amp; feature engineering</li>
+                            <li><i class="ph ph-caret-right"></i>Tableau &amp; Power BI</li>
+                            <li><i class="ph ph-caret-right"></i>Insight generation</li>
                         </ul>
                     </div>
-                    <div class="flat-card dark-card">
-                        <i class="ph ph-terminal-window icon-lg"></i>
-                        <h3>Tools & Programming</h3>
+                    <div class="sk-card dark-bg">
+                        <i class="ph ph-terminal-window sk-icon"></i>
+                        <h3>Tools & Dev</h3>
                         <ul>
-                            <li>Python</li>
-                            <li>Jupyter Notebook</li>
-                            <li>Git & Version Control</li>
-                            <li>Data Annotation Tools</li>
+                            <li><i class="ph ph-caret-right"></i>Python</li>
+                            <li><i class="ph ph-caret-right"></i>Jupyter Notebook</li>
+                            <li><i class="ph ph-caret-right"></i>Git &amp; Version Control</li>
+                            <li><i class="ph ph-caret-right"></i>Annotation Tools</li>
                         </ul>
                     </div>
-                    <div class="flat-card primary-card">
-                        <i class="ph ph-lightning icon-lg"></i>
-                        <h3>Applied Strengths</h3>
-                        <ul>
-                            <li>End-to-end pipeline design</li>
-                            <li>Prompt system architecture</li>
-                            <li>Data preprocessing standardization</li>
-                        </ul>
+                    <div class="sk-card glass-bg fullrow">
+                        <div class="strengths-row">
+                            <p class="strengths-label"><i class="ph ph-lightning-slash"></i> Applied Strengths</p>
+                            <div class="strength-items">
+                                <div class="si"><span class="si-n">01</span><span>End-to-end pipeline design</span></div>
+                                <div class="si"><span class="si-n">02</span><span>Prompt system architecture</span></div>
+                                <div class="si"><span class="si-n">03</span><span>Data preprocessing standardization</span></div>
+                                <div class="si"><span class="si-n">04</span><span>Scalable automation frameworks</span></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Services Section -->
+        <!-- SERVICES -->
         <section id="services" class="services">
             <div class="container animate-on-scroll">
-                <p class="section-subtitle center">/ EXPERTISE</p>
-                <h2 class="section-title">Services</h2>
-                <div class="grid-3-col">
-                    <div class="flat-card dark-card">
-                        <i class="ph ph-robot icon-accent"></i>
+                <p class="eyebrow center">/ WHAT I OFFER</p>
+                <h2 class="sec-heading center">Services That<br>Deliver Real Results.</h2>
+                <div class="svc-grid">
+                    <div class="svc-card accent-bg">
+                        <div class="svc-num">01</div>
+                        <i class="ph ph-robot svc-icon"></i>
                         <h3>AI & LLM Automation</h3>
-                        <p>Automating complex content generation, summarization, and Q&A using structured prompt
-                            workflows and state-of-the-art LLMs.</p>
+                        <p>Automating complex content generation, summarization, and Q&amp;A using structured prompt workflows and state-of-the-art LLMs.</p>
                     </div>
-                    <div class="flat-card highlight-card">
-                        <i class="ph ph-chart-line-up icon-accent"></i>
+                    <div class="svc-card dark-bg">
+                        <div class="svc-num">02</div>
+                        <i class="ph ph-chart-line-up svc-icon"></i>
                         <h3>Data Analysis & Dashboards</h3>
-                        <p>End-to-end transformation of raw data—cleaning, feature engineering, and insight generation
-                            via interactive Tableau and Power BI dashboards.</p>
+                        <p>End-to-end transformation of raw data — cleaning, feature engineering, and insight generation via interactive Tableau and Power BI dashboards.</p>
                     </div>
-                    <div class="flat-card dark-card">
-                        <i class="ph ph-git-branch icon-accent"></i>
+                    <div class="svc-card dark-bg">
+                        <div class="svc-num">03</div>
+                        <i class="ph ph-git-branch svc-icon"></i>
                         <h3>End-to-End Data Pipelines</h3>
-                        <p>Designing robust pipelines that ingest raw data and reliably output processed datasets for
-                            downstream machine learning tasks.</p>
+                        <p>Designing robust pipelines that ingest raw data and reliably output processed datasets for downstream machine learning tasks.</p>
                     </div>
-                    <div class="flat-card primary-card">
-                        <i class="ph ph-bounding-box icon-accent"></i>
-                        <h3>Computer Vision Data Preparation</h3>
-                        <p>Comprehensive dataset readiness including accurate annotation, strategic preprocessing, and
-                            advanced augmentation techniques.</p>
+                    <div class="svc-card dark-bg">
+                        <div class="svc-num">04</div>
+                        <i class="ph ph-bounding-box svc-icon"></i>
+                        <h3>Computer Vision Data Prep</h3>
+                        <p>Comprehensive dataset readiness — accurate annotation, strategic preprocessing, and advanced augmentation techniques.</p>
                     </div>
-                    <div class="flat-card dark-card">
-                        <i class="ph ph-magic-wand icon-accent"></i>
-                        <h3>Prompt Engineering & Workflow Design</h3>
-                        <p>Developing robust, reusable prompt systems tailored for scalable and predictable AI behavior
-                            in production environments.</p>
+                    <div class="svc-card dark-bg">
+                        <div class="svc-num">05</div>
+                        <i class="ph ph-magic-wand svc-icon"></i>
+                        <h3>Prompt Engineering</h3>
+                        <p>Developing robust, reusable prompt systems tailored for scalable and predictable AI behavior in production environments.</p>
+                    </div>
+                </div>
+                <div class="process-strip">
+                    <p class="eyebrow center" style="margin-bottom:3rem;">/ HOW I WORK</p>
+                    <div class="process-steps">
+                        <div class="pstep dark-bg">
+                            <div class="pstep-num">Stage 1</div>
+                            <h4>Discovery</h4>
+                            <p>Understanding your problem, data landscape, and desired outcomes through structured consultation.</p>
+                            <ul><li>Requirements analysis</li><li>Data audit</li></ul>
+                        </div>
+                        <div class="pstep-arrow"><i class="ph ph-arrow-right"></i></div>
+                        <div class="pstep dark-bg">
+                            <div class="pstep-num">Stage 2</div>
+                            <h4>Build</h4>
+                            <p>Designing and engineering the AI pipeline, models, or automation with iterative testing and feedback loops.</p>
+                            <ul><li>Pipeline engineering</li><li>Model integration</li></ul>
+                        </div>
+                        <div class="pstep-arrow"><i class="ph ph-arrow-right"></i></div>
+                        <div class="pstep accent-bg">
+                            <div class="pstep-num">Stage 3</div>
+                            <h4>Deliver</h4>
+                            <p>Clean handoff with documentation, code, and support to ensure smooth deployment and usage.</p>
+                            <a href="#contact" class="btn btn-dark" style="margin-top:1.2rem;font-size:0.82rem;padding:0.65rem 1.2rem;">Start a Project <i class="ph ph-arrow-right"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Projects Section -->
+        <!-- PROJECTS -->
         <section id="projects" class="projects">
             <div class="container animate-on-scroll">
-                <p class="section-subtitle center">/ SPOTLIGHT</p>
-                <h2 class="section-title">Featured Projects</h2>
-                <div class="grid-3-col">
-                    <div class="flat-card primary-card project-card">
-                        <div class="project-content">
-                            <h3>LLM-Based Automation Workflow Pipeline</h3>
-                            <p class="project-tech"><span>Hugging Face</span><span>Python</span><span>Prompt
-                                    Engineering</span></p>
-                            <p><strong>Problem:</strong> Inconsistent and manual processing for varying textual tasks.
-                            </p>
-                            <p><strong>Approach:</strong> Designed an end-to-end system utilizing Hugging Face models
-                                and structured prompt templates.</p>
-                            <p><strong>Outcome:</strong> Reusable, multi-use case pipeline ensuring scalable and highly
-                                consistent AI outputs.</p>
+                <p class="eyebrow center">/ SPOTLIGHT</p>
+                <h2 class="sec-heading center">Featured Projects<br>That Propel Results.</h2>
+                <div class="proj-grid">
+                    <div class="proj-card accent-bg">
+                        <div class="proj-top">
+                            <div class="proj-tags"><span>Hugging Face</span><span>Python</span><span>Prompt Eng.</span></div>
+                            <a href="https://github.com/prafulkinkar" target="_blank" class="proj-link-btn"><i class="ph ph-arrow-up-right"></i></a>
                         </div>
-                        <a href="https://github.com/prafulkinkar" class="link-arrow">View on GitHub <i
-                                class="ph ph-arrow-right"></i></a>
+                        <h3>LLM-Based Automation Workflow Pipeline</h3>
+                        <div class="proj-kv"><span>Problem</span><p>Inconsistent and manual processing for varying textual tasks.</p></div>
+                        <div class="proj-kv"><span>Approach</span><p>End-to-end system utilizing Hugging Face models and structured prompt templates.</p></div>
+                        <div class="proj-result"><i class="ph ph-trend-up"></i> Reusable multi-use pipeline with scalable, consistent AI outputs</div>
                     </div>
-                    <div class="flat-card dark-card project-card">
-                        <div class="project-content">
-                            <h3>Predictive Data Analysis Dashboard</h3>
-                            <p class="project-tech"><span>Pandas</span><span>Tableau / Power BI</span><span>EDA</span>
-                            </p>
-                            <p><strong>Problem:</strong> Raw organizational data lacking actionable, strategic
-                                visibility.</p>
-                            <p><strong>Approach:</strong> Executed deep data cleaning and feature engineering,
-                                culminating in interactive dashboards.</p>
-                            <p><strong>Outcome:</strong> Delivered clear decision-making insights, empowering
-                                data-driven strategies.</p>
+                    <div class="proj-card dark-bg">
+                        <div class="proj-top">
+                            <div class="proj-tags"><span>Pandas</span><span>Tableau</span><span>Power BI</span></div>
+                            <a href="https://github.com/prafulkinkar" target="_blank" class="proj-link-btn"><i class="ph ph-arrow-up-right"></i></a>
                         </div>
-                        <a href="https://github.com/prafulkinkar" class="link-arrow">View on GitHub <i
-                                class="ph ph-arrow-right"></i></a>
+                        <h3>Predictive Data Analysis Dashboard</h3>
+                        <div class="proj-kv"><span>Problem</span><p>Raw organizational data lacking actionable, strategic visibility.</p></div>
+                        <div class="proj-kv"><span>Approach</span><p>Deep data cleaning and feature engineering, culminating in interactive dashboards.</p></div>
+                        <div class="proj-result"><i class="ph ph-trend-up"></i> Clear decision-making insights empowering data-driven strategies</div>
                     </div>
-                    <div class="flat-card highlight-card project-card">
-                        <div class="project-content">
-                            <h3>Computer Vision Dataset Prep Pipeline</h3>
-                            <p class="project-tech"><span>OpenCV</span><span>Annotation Tools</span><span>Python</span>
-                            </p>
-                            <p><strong>Problem:</strong> Unstructured visual data slowing down model training and
-                                reliability.</p>
-                            <p><strong>Approach:</strong> Automated the annotation, preprocessing, and augmentation
-                                pipeline for image datasets.</p>
-                            <p><strong>Outcome:</strong> Drastically improved model readiness and dataset quality for
-                                downstream object detection.</p>
+                    <div class="proj-card dark-bg">
+                        <div class="proj-top">
+                            <div class="proj-tags"><span>OpenCV</span><span>Python</span><span>Annotation</span></div>
+                            <a href="https://github.com/prafulkinkar" target="_blank" class="proj-link-btn"><i class="ph ph-arrow-up-right"></i></a>
                         </div>
-                        <a href="https://github.com/prafulkinkar" class="link-arrow">View on GitHub <i
-                                class="ph ph-arrow-right"></i></a>
+                        <h3>Computer Vision Dataset Prep Pipeline</h3>
+                        <div class="proj-kv"><span>Problem</span><p>Unstructured visual data slowing down model training and reliability.</p></div>
+                        <div class="proj-kv"><span>Approach</span><p>Automated annotation, preprocessing, and augmentation pipeline for image datasets.</p></div>
+                        <div class="proj-result"><i class="ph ph-trend-up"></i> Drastically improved model readiness and dataset quality</div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Content / YouTube Section --> 
-
+        <!-- YOUTUBE -->
         <section id="youtube" class="youtube">
             <div class="container animate-on-scroll">
-                <p class="section-subtitle center">/ CONTENT CREATION</p>
-                <h2 class="section-title">Latest on YouTube</h2>
-                <div class="grid-3-col">
-                    <a href="https://www.youtube.com/@prafulyaar" target="_blank" class="flat-card dark-card yt-card">
-                        <div class="yt-thumbnail">
-                            <img src="youtube-thumbnail-1.jpg" onerror="this.src='https://via.placeholder.com/800x450/1A1D24/6E7CFA?text=Video+1';" alt="YouTube Video 1">
-                            <div class="yt-play-overlay">
-                                <i class="ph ph-play-circle"></i>
-                            </div>
+                <p class="eyebrow center">/ CONTENT CREATION</p>
+                <h2 class="sec-heading center">Latest on YouTube</h2>
+                <div class="yt-grid">
+                    <a href="https://www.youtube.com/@alsopraful" target="_blank" class="yt-card accent-bg">
+                        <div class="yt-thumb">
+                            <img src="youtube-thumbnail.png" alt="I Was Wrong" loading="lazy" onerror="this.src='https://via.placeholder.com/800x450/0d1f1a/00f0c0?text=@alsopraful'">
+                            <div class="yt-overlay"><i class="ph ph-play-circle"></i></div>
                         </div>
-                        <div class="yt-info">
+                        <div class="yt-body">
+                            <h3>I Was Wrong</h3>
+                            <p>An honest reflection on AI/ML engineering — what I got wrong and what actually works in the real world.</p>
+                            <span class="link-row">Watch on YouTube <i class="ph ph-arrow-right"></i></span>
+                        </div>
+                    </a>
+                    <a href="https://www.youtube.com/@alsopraful" target="_blank" class="yt-card dark-bg">
+                        <div class="yt-thumb">
+                            <img src="youtube-thumbnail.png" alt="Building Scalable AI Systems" loading="lazy" onerror="this.src='https://via.placeholder.com/800x450/0a0a0a/00f0c0?text=@alsopraful'">
+                            <div class="yt-overlay"><i class="ph ph-play-circle"></i></div>
+                        </div>
+                        <div class="yt-body">
                             <h3>Building Scalable AI Systems</h3>
-                            <p>Insights on AI/ML Engineering, building robust systems, and transitioning into Tech.</p>
-                            <span class="link-arrow">Watch <i class="ph ph-arrow-right"></i></span>
+                            <p>Insights on AI/ML Engineering, building robust systems, and transitioning into tech from a non-CS background.</p>
+                            <span class="link-row">Watch on YouTube <i class="ph ph-arrow-right"></i></span>
                         </div>
                     </a>
-                    
-                    <a href="https://www.youtube.com/@prafulkinkar" target="_blank" class="flat-card highlight-card yt-card">
-                        <div class="yt-thumbnail">
-                            <img src="youtube-thumbnail-2.jpg" onerror="this.src='https://via.placeholder.com/800x450/1A1D24/6E7CFA?text=Video+2';" alt="YouTube Video 2">
-                            <div class="yt-play-overlay">
-                                <i class="ph ph-play-circle"></i>
-                            </div>
+                    <a href="https://www.youtube.com/@alsopraful" target="_blank" class="yt-card dark-bg">
+                        <div class="yt-thumb">
+                            <img src="youtube-thumbnail.png" alt="LLM Prompt Engineering" loading="lazy" onerror="this.src='https://via.placeholder.com/800x450/0a0a0a/00f0c0?text=@alsopraful'">
+                            <div class="yt-overlay"><i class="ph ph-play-circle"></i></div>
                         </div>
-                        <div class="yt-info">
-                            <h3>LLM Prompt Engineering</h3>
-                            <p>Deep dive into structuring robust prompt workflows for real-world AI applications.</p>
-                            <span class="link-arrow">Watch <i class="ph ph-arrow-right"></i></span>
-                        </div>
-                    </a>
-
-                    <a href="https://www.youtube.com/@prafulkinkar" target="_blank" class="flat-card dark-card yt-card">
-                        <div class="yt-thumbnail">
-                            <img src="youtube-thumbnail-3.jpg" onerror="this.src='https://via.placeholder.com/800x450/1A1D24/6E7CFA?text=Video+3';" alt="YouTube Video 3">
-                            <div class="yt-play-overlay">
-                                <i class="ph ph-play-circle"></i>
-                            </div>
-                        </div>
-                        <div class="yt-info">
-                            <h3>Data Pipelines from Scratch</h3>
-                            <p>End-to-end tutorial on ingesting, cleaning, and processing data for machine learning.</p>
-                            <span class="link-arrow">Watch <i class="ph ph-arrow-right"></i></span>
+                        <div class="yt-body">
+                            <h3>LLM Prompt Engineering Deep Dive</h3>
+                            <p>Structuring robust prompt workflows for real-world AI applications that don't break in production.</p>
+                            <span class="link-row">Watch on YouTube <i class="ph ph-arrow-right"></i></span>
                         </div>
                     </a>
                 </div>
             </div>
         </section>
 
-        <!-- Experience Section -->
+        <!-- EXPERIENCE -->
         <section id="experience" class="experience">
             <div class="container animate-on-scroll">
-                <p class="section-subtitle center">/ JOURNEY</p>
-                <h2 class="section-title">Experience</h2>
-                <div class="flat-card dark-card experience-panel">
-                    <div class="exp-left">
-                        <div class="bubble bubble-3">AI / ML</div>
-                        <div class="exp-dates">Feb 2026 – Present</div>
+                <p class="eyebrow center">/ JOURNEY</p>
+                <h2 class="sec-heading center">Experience</h2>
+                <div class="exp-card dark-bg">
+                    <div class="exp-left-col">
+                        <div class="exp-badge">AI / ML</div>
+                        <p class="exp-date">Feb 2026 – Present</p>
                     </div>
-                    <div class="exp-right">
-                        <h3>AI/ML Intern</h3>
-                        <h4 class="company">AI Unika</h4>
-                        <ul class="clean-list">
-                            <li><i class="ph ph-dot-outline"></i> Engineered LLM-based pipelines for automated content
-                                generation and summarization.</li>
-                            <li><i class="ph ph-dot-outline"></i> Designed structured prompt engineering systems to
-                                standardize AI outputs.</li>
-                            <li><i class="ph ph-dot-outline"></i> Conducted extensive data preprocessing and feature
-                                engineering for analysis.</li>
-                            <li><i class="ph ph-dot-outline"></i> Built interactive dashboards using Tableau and Power
-                                BI to surface key metrics.</li>
-                            <li><i class="ph ph-dot-outline"></i> Managed computer vision dataset preparation, including
-                                annotation and augmentation.</li>
+                    <div class="exp-right-col">
+                        <div class="exp-title-row">
+                            <div>
+                                <h3>AI/ML Intern</h3>
+                                <p class="exp-co">AI Unika</p>
+                            </div>
+                            <span class="exp-live"><span class="pulse-dot"></span>Current</span>
+                        </div>
+                        <ul class="exp-list">
+                            <li><i class="ph ph-caret-right"></i>Engineered LLM-based pipelines for automated content generation and summarization.</li>
+                            <li><i class="ph ph-caret-right"></i>Designed structured prompt engineering systems to standardize AI outputs.</li>
+                            <li><i class="ph ph-caret-right"></i>Conducted extensive data preprocessing and feature engineering for analysis.</li>
+                            <li><i class="ph ph-caret-right"></i>Built interactive dashboards using Tableau and Power BI to surface key metrics.</li>
+                            <li><i class="ph ph-caret-right"></i>Managed computer vision dataset preparation including annotation and augmentation.</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Contact Section (Based on bottom right of the image) -->
+        <!-- CTA BANNER -->
+        <section class="cta-banner animate-on-scroll">
+            <div class="cta-glow"></div>
+            <div class="container cta-inner">
+                <p class="eyebrow">/ OPEN TO WORK</p>
+                <h2>Each Project Is a<br>Unique Opportunity.</h2>
+                <p>Ready to build something meaningful? Let's turn your data and ideas into real AI systems.</p>
+                <a href="#contact" class="btn btn-accent btn-lg">Book a Call <i class="ph ph-arrow-right"></i></a>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
         <section id="contact" class="contact">
-            <div class="container animate-on-scroll flex-contact">
-                <div class="contact-left">
-                    <h2 class="huge-heading">Let's <i class="ph ph-arrow-right"></i><br>Connect.</h2>
-                    <p class="contact-desc">Currently open to new opportunities, collaborations, and conversations about
-                        building practical AI/ML systems.</p>
-                    <div class="contact-socials">
-                        <a href="mailto:prafulkinkar8@gmail.com"><i class="ph ph-envelope"></i>
-                            prafulkinkar8@gmail.com</a>
-                        <a href="#"><i class="ph ph-phone"></i> +91 7020794853</a>
-                        <a href="https://github.com/prafulkinkar" target="_blank"><i class="ph ph-github-logo"></i>
-                            GitHub</a>
-                        <a href="https://linkedin.com/in/prafulkinkar" target="_blank"><i
-                                class="ph ph-linkedin-logo"></i> LinkedIn</a>
+            <div class="container animate-on-scroll">
+                <div class="contact-grid">
+                    <div class="contact-left">
+                        <p class="eyebrow">/ LET'S CONNECT</p>
+                        <h2 class="contact-heading">Let's<br><em class="accent-name">Connect.</em></h2>
+                        <p class="body-text">Currently open to new opportunities, collaborations, and conversations about building practical AI/ML systems.</p>
+                        <div class="socials">
+                            <a href="mailto:prafulkinkar8@gmail.com"><i class="ph ph-envelope"></i><span>prafulkinkar8@gmail.com</span></a>
+                            <a href="https://wa.me/917020794853" target="_blank"><i class="ph ph-whatsapp-logo"></i><span>WhatsApp Me</span></a>
+                            <a href="https://github.com/prafulkinkar" target="_blank"><i class="ph ph-github-logo"></i><span>GitHub</span></a>
+                            <a href="https://linkedin.com/in/prafulkinkar" target="_blank"><i class="ph ph-linkedin-logo"></i><span>LinkedIn</span></a>
+                        </div>
                     </div>
-                </div>
-                <div class="contact-right">
-                    <form class="minimal-form" action="#" method="POST"
-                        onsubmit="event.preventDefault(); alert('Message sent successfully!');">
-                        <input type="text" placeholder="Your name:" required>
-                        <input type="email" placeholder="Your email address:" required>
-                        <input type="text" placeholder="Tell about the project:" required>
-                        <button type="submit" class="link-arrow">Send <i class="ph ph-arrow-right"></i></button>
-                    </form>
+                    <div class="contact-form-wrap">
+                        <form id="contactForm">
+                            <input type="text" name="name" placeholder="Your name" required>
+                            <input type="email" name="email" placeholder="Your email" required>
+                            <input type="text" name="project" placeholder="Tell me about the project">
+                            <div id="form-msg"></div>
+                            <button type="submit" class="btn btn-accent btn-full">Send Message <i class="ph ph-paper-plane-tilt"></i></button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>
+
     </main>
 
     <footer>
-        <div class="container footer-flex">
+        <div class="container footer-inner">
             <div class="footer-logo">PRAFUL/K.</div>
-            <div class="footer-copy">&copy; 2026 Praful Kinkar.</div>
+            <p class="footer-copy">&copy; 2026 Praful Kinkar · AI/ML Engineer · Nagpur, India</p>
+            <div class="footer-icons">
+                <a href="https://github.com/prafulkinkar" target="_blank"><i class="ph ph-github-logo"></i></a>
+                <a href="https://linkedin.com/in/prafulkinkar" target="_blank"><i class="ph ph-linkedin-logo"></i></a>
+                <a href="https://www.youtube.com/@alsopraful" target="_blank"><i class="ph ph-youtube-logo"></i></a>
+            </div>
         </div>
     </footer>
 
-    <script src="script.js"></script>
-</body>
+    <button id="btt" aria-label="Back to top"><i class="ph ph-arrow-up"></i></button>
 
+    <script src="script.js"></script>
+    <script>
+    document.getElementById('contactForm').addEventListener('submit', async function(e) {
+        e.preventDefault();
+        const btn = this.querySelector('button[type=submit]');
+        const msg = document.getElementById('form-msg');
+        btn.textContent = 'Sending…'; btn.disabled = true;
+        try {
+            const res = await fetch('https://formspree.io/f/YOUR_FORM_ID', { method:'POST', headers:{'Accept':'application/json'}, body: new FormData(this) });
+            msg.innerHTML = res.ok ? '<p class="fsuccess"><i class="ph ph-check-circle"></i> Message sent! I\'ll reply within 24h.</p>' : '<p class="ferror">Something went wrong. Email me directly.</p>';
+            if (res.ok) this.reset();
+        } catch { msg.innerHTML = '<p class="ferror">Network error. Try emailing directly.</p>'; }
+        btn.innerHTML = 'Send Message <i class="ph ph-paper-plane-tilt"></i>'; btn.disabled = false;
+    });
+    const btt = document.getElementById('btt');
+    window.addEventListener('scroll', () => btt.classList.toggle('show', window.scrollY > 400));
+    btt.addEventListener('click', () => window.scrollTo({ top:0, behavior:'smooth' }));
+    </script>
+</body>
 </html>
